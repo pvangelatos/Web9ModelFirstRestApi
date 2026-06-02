@@ -5,6 +5,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.IdentityModel.Tokens.Experimental;
 using Microsoft.OpenApi.Models;
+using SchoolApp.Controllers;
 using SchoolApp.Data;
 using SchoolApp.Helpers;
 using SchoolApp.Repositories;
@@ -41,7 +42,7 @@ namespace SchoolApp
 
             builder.Services.AddRepositories();
 
-            builder.Services.AddAutoMapper(cfg => cfg.AddProfile<Configuration.MapperConfig>());
+            builder.Services.AddAutoMapper(cfg => cfg.AddProfile<MapperConfig>());
 
             var jwtSettings = builder.Configuration.GetSection("Jwt");
             builder.Services.AddAuthentication(options =>
