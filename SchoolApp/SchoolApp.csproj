@@ -26,7 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Configuration\" />
     <Folder Include="Core\" />
     <Folder Include="DTO\" />
     <Folder Include="Exceptions\" />

@@ -2,7 +2,7 @@
 using SchoolApp.DTO;
 using SchoolApp.Models;
 
-namespace SchoolApp.Controllers
+namespace SchoolApp.Configuration
 {
     public class MapperConfig : Profile
     {

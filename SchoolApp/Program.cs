@@ -5,7 +5,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.IdentityModel.Tokens.Experimental;
 using Microsoft.OpenApi.Models;
-using SchoolApp.Controllers;
+using SchoolApp.Configuration;
 using SchoolApp.Data;
 using SchoolApp.Helpers;
 using SchoolApp.Repositories;
